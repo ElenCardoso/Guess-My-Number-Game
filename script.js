@@ -21,7 +21,7 @@ document.querySelector('.check').addEventListener('click', function () {
   if (!guess) {
     // document.querySelector('.message').textContent = 'No Number!';
     displayMessage('No number!');
-    document.querySelector('.number').textContent = secretNumber;
+    // document.querySelector('.number').textContent = secretNumber;
 
     // when player wins
   } else if (guess === secretNumber) {
