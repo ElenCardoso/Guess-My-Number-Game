@@ -47,6 +47,7 @@ document.querySelector('.check').addEventListener('click', function () {
       // document.querySelector('.message').textContent = 'You lost the game :(';
       displayMessage('You lost :(');
       document.querySelector('.score').textContent = 0;
+      document.querySelector('body').style.backgroundColor = '#D22b2b';
     }
 
     // too high
